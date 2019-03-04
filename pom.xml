@@ -9,12 +9,12 @@
   <url>http://maven.apache.org</url>
   <distributionmanagement>
     <repository>
-        <id>mvn-local-dlh-releases</id>
+        <id>mvn-lds</id>
         <name>Maven Artifactory Releases Repository for DLH</name>
         <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-releases</url>
     </repository>
     <snapshotrepository>
-     <id>mvn-local-dlh-snapshots</id>
+     <id>mvn-lds</id>
      <name>Maven Artifactory Snapshots Repository for DLH</name>
      <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-snapshots</url>
    </snapshotrepository>
