@@ -7,18 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>my-HelloWorld</name>
   <url>http://maven.apache.org</url>
-  <distributionmanagement>
+  <distributionManagement>
     <repository>
         <id>mvn-lds</id>
         <name>Maven Artifactory Releases Repository for DLH</name>
         <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-releases</url>
     </repository>
-    <snapshotrepository>
+    <snapshotRepository>
      <id>mvn-lds</id>
      <name>Maven Artifactory Snapshots Repository for DLH</name>
      <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-snapshots</url>
-   </snapshotrepository>
-  </distributionmanagement>
+   </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
