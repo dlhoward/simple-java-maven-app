@@ -17,18 +17,17 @@
   </properties>
   <distributionManagement>
     <repository>
-        <id>mvn-lds</id>
-        <name>Maven Artifactory Releases Repository for DLH</name>
-        <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-releases</url>
+        <id>central</id>
+        <name>artifactory.dh2.tech-releases</name>
+        <url>http://artifactory.dh2.tech/artifactory/dlh-release-local</url>
     </repository>
     <snapshotRepository>
-     <id>mvn-lds</id>
-     <name>Maven Artifactory Snapshots Repository for DLH</name>
-     <url>https://code.ldschurch.org/artifactory/mvn-local-dlh-snapshots</url>
-   </snapshotRepository>
-  </distributionManagement>
-  <dependencies>
-    <dependency>
+        <id>snapshots</id>
+        <name>artifactory.dh2.tech-snapshots</name>
+        <url>http://artifactory.dh2.tech/artifactory/dlh-release-local</url>
+    </snapshotRepository>
+  </distributionManagement>  <dependencies>
+  <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
